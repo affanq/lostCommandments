@@ -39,9 +39,7 @@ class Box extends React.Component {
   }
 
   render() {
-
     return (
-
       <div className="grid-item" onClick={this.handleClick}>
       <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
 
